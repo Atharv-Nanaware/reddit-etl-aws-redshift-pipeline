@@ -23,7 +23,7 @@ The following technologies are used to build the pipeline:
     AWS Athena: Querying data stored in S3.
     Amazon Redshift: Data warehousing for analytics.
 
-Project Structure
+Project Structure;
     airflow_dags/: Contains Airflow DAGs for scheduling and orchestrating the ETL process.
     scripts/: Python scripts to interact with Reddit API and push data to S3.
     glue_jobs/: AWS Glue scripts for transforming the raw data.
